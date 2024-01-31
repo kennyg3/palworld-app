@@ -2,19 +2,12 @@
 
 import React from 'react';
 import { Container, Toolbar, Typography , Button } from '@mui/material';
-import { Link } from 'react-router-dom';
+import Appbar from './Appbar';
 
 const OtherPage = () => {
   return (
     <div>
-        <Toolbar style={{ backgroundColor: 'green', color: 'white' }}>
-          <Typography variant="h6" component={Link} to="/">
-            Palworld
-          </Typography>
-          <Button color="inherit" component={Link} to="/other-page">
-            Other Page
-          </Button>
-        </Toolbar>
+        <Appbar/>
       <Container>
         <Typography variant="h4" align="center" gutterBottom>
           Content for Other Page
