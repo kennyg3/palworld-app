@@ -1,0 +1,13 @@
+
+.thumbnail-container {
+    position: relative;
+  }
+  
+  .selected {
+    border: 2px solid blue;
+  }
+  
+  .selected:nth-child(2) {
+    border-color: red;
+  }
+  

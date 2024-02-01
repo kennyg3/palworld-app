@@ -10,9 +10,8 @@ const OtherPage = () => {
         <Appbar/>
       <Container>
         <Typography variant="h4" align="center" gutterBottom>
-          Content for Other Page
+          Guide
         </Typography>
-        {/* Add the content for your Other Page here */}
       </Container>
     </div>
   );
